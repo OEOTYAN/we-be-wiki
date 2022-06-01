@@ -1,5 +1,5 @@
 
 node_modules/
-we-be-wiki/.vuepress/.cache/
-we-be-wiki/.vuepress/.temp/
-we-be-wiki/.vuepress/dist/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
