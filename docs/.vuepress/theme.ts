@@ -16,7 +16,8 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  docsDir: "demo/src",
+    docsDir: "docs",
+    docsBranch: "master",
 
     pageInfo: ["Author", "ReadingTime", "Word", "PageView"],
     repo: "OEOTYAN/we-be-wiki",
