@@ -89,13 +89,16 @@ icon: view
 ```
 &emsp;&emsp;这些命令可以简单地以许多方式扩大选区:
 
-&emsp;&emsp;给出一个方向（north、south、west、east、up、down）
+&emsp;&emsp;给出一个方向（`north`、`south`、`west`、`east`、`up`、`down`）
 
-&emsp;&emsp;看向一个方向（me、back）
+&emsp;&emsp;看向一个方向（`me`、`back`）
+
+::: info
 
 &emsp;&emsp;如果你想选择看向的一个方向，使用me或不输入方向参数来指定那个方向，也可以用back表示与看向的方向相反的方向。
 
 &emsp;&emsp;你可以指定两个数字来使选区同时向两个方向扩大选区。使用 `/expand vert` 可以将选区竖直方向扩展到整个世界的限度。
+::: 
 
 ### 移动选区位置
 ```
