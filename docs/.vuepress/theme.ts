@@ -14,6 +14,12 @@ export default hopeTheme({
 
   iconAssets: "//at.alicdn.com/t/font_2410206_a0xb9hku9iu.css",
 
+    copyright:"Copyleft 2022-present OEOTYAN",
+
+    footer: "Released under AGPL-3.0 Licensed",
+    
+    displayFooter:true,
+
   logo: "/logo.svg",
 
     docsDir: "docs",

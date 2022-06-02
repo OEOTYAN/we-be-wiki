@@ -1,8 +1,6 @@
 ---
 order: 1
 icon: tool
-# You can customize the footer
-footer: Copyleft 2022-present OEOTYAN
 ---
 
 # 工具

@@ -35,8 +35,6 @@ features:
   - title: 更多新特性
     icon: more
     details: 可能正在写，也可能没有
-copyright: false
-footer: Released under AGPL-3.0 Licensed | Copyleft 2022-present OEOTYAN
 ---
 ::: center
 ![](https://img.shields.io/github/languages/code-size/OEOTYAN/WorldEdit-BE?style=for-the-badge)

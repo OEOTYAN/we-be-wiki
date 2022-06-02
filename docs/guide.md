@@ -1,8 +1,6 @@
 ---
 index: false
 icon: install
-# You can customize the footer
-footer: Copyleft 2022-present OEOTYAN
 ---
 
 # 安装与使用

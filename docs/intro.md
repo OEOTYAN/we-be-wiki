@@ -1,8 +1,6 @@
 ---
 index: false
 icon: navigation
-# You can customize the footer
-footer: Copyleft 2022-present OEOTYAN
 ---
 
 # 介绍
