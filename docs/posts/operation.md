@@ -195,7 +195,7 @@ icon: linter
 例子：选区方块内容法线
 ```
 /gen "'abs(normalx())'%concrete:'14+(normalx()<0)',
-'abs(normaly())'%concerte:'13+2*(normaly()<0)',
+'abs(normaly())'%concrete:'5+10*(normaly()<0)',
 'abs(normalz())'%concrete:'11+4*(normalz()<0)'" "issurface()"
 ```
 
