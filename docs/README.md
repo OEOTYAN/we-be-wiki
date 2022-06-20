@@ -43,7 +43,7 @@ features:
 ![](https://img.shields.io/github/languages/top/OEOTYAN/WorldEdit-BE?style=for-the-badge)
 ![](https://img.shields.io/github/license/OEOTYAN/WorldEdit-BE?style=for-the-badge)
 ![](https://img.shields.io/github/downloads/OEOTYAN/WorldEdit-BE/total?style=for-the-badge)
-
+![](https://img.shields.io/github/v/release/OEOTYAN/WorldEdit-BE?style=for-the-badge)
 
 ::: center
 # __沙峦名单__
