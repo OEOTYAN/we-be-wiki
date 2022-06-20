@@ -7,7 +7,9 @@ icon: navigation
 
 ## 这是什么玩意儿
 
-&emsp;&emsp;我也不太清楚，可能是个为 [Minecraft 基岩版专用服务器](https://www.minecraft.net/en-us/download/server/bedrock)服务的插件。与 Minecraft Java Edition 中的 [WorldEdit](https://github.com/EngineHub/WorldEdit) 十分类似，近乎原汁儿原味......吧。现在有挺多功能的，更多功能还在持续增加中。
+&emsp;&emsp;我也不太清楚，可能是个为 [Minecraft 基岩版专用服务器](https://www.minecraft.net/en-us/download/server/bedrock)服务的插件。与 Minecraft Java Edition 中的 [WorldEdit](https://github.com/EngineHub/WorldEdit) 外加 voxelSniper ，goBrush，goPaint，Arceon，buildCommands 等一系列外加插件的功能类似，毕竟不管是其他 JE 或者 BE 的插件作者的数学水平都很堪忧。毕竟就算写的跟那什么似的照样有小玩意儿给它们交钱。
+
+现在有挺多功能的，更多功能还在持续增加中。
 
 ## 有什么特别的
 

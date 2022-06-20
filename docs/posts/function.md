@@ -56,7 +56,7 @@ icon: function
 
 &emsp;&emsp;函数由字母开头，内部可含有数字，下划线，冒号。尾部必须带有完整括号。截至目前，内置函数总共有这么几个：
 
-`rand`, `sin`, `abs`, `cos`, `sign`, `lg`, `ln`, `log2`, `round`, `floor`, `ceil`, `exp`, `exp2`, `sqrt`, `tan`, `atan`, `atan2`, `asin`, `acos`, `sinh`, `cosh`, `tanh`, `gamma`, `isslimechunk`, `sum`, `min`, `max`, `id`, `data`, `issolid`, `iswaterblocking`, `issbblock`, `istop`, `normalx`, `normaly`, `normalz`, `angle`, `issurface`, `issurfacesmooth`, `is_xxxx`, `has_xxxx`
+`rand`, `sin`, `abs`, `cos`, `sign`, `lg`, `ln`, `log2`, `round`, `floor`, `ceil`, `exp`, `exp2`, `sqrt`, `tan`, `atan`, `atan2`, `asin`, `acos`, `sinh`, `cosh`, `tanh`, `gamma`, `isslimechunk`, `sum`, `min`, `max`, `id`, `biome`, `data`, `issolid`, `iswaterblocking`, `issbblock`, `istop`, `normalx`, `normaly`, `normalz`, `angle`, `issurface`, `issurfacesmooth`, `is_xxxx`, `has_xxxx`
 
 &emsp;&emsp;大多为普通的数学函数，接下来介绍部分自定义的函数：
 
@@ -86,6 +86,10 @@ icon: function
 ::: info
 &emsp;&emsp;偏移量含义下同。
 :::
+
+### biome
+
+&emsp;&emsp;返回方块的 `生物群系Id`。
 
 ### data
 

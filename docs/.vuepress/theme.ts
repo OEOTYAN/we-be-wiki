@@ -28,7 +28,7 @@ export default hopeTheme({
     pageInfo: ["Author", "ReadingTime", "Word", "PageView"],
     repo: "OEOTYAN/we-be-wiki",
   locales: {
-    "/en/": {
+  /*  "/en/": {
       // navbar
       navbar: navbar.en,
 
