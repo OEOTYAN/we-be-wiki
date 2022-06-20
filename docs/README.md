@@ -14,7 +14,7 @@ actions:
     link: https://github.com/OEOTYAN/WorldEdit-BE
 
   - text: 下载
-    link: https://github.com/OEOTYAN/WorldEdit-BE/releases
+    link: https://github.com/OEOTYAN/WorldEdit-BE/releases/latest
 
   - text: 赞助
     link: https://afdian.net/@oeotyan
