@@ -39,7 +39,7 @@ icon: tool
 ## 邻近填充工具
 
 ```
-/tool flood  <方块图案> <距离> [-d]
+/tool flood <方块图案> <距离> [-d]
 ```
 &emsp;&emsp;`-d` 比较方块特殊值
 

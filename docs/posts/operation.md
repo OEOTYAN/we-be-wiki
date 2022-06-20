@@ -14,7 +14,7 @@ icon: linter
 
 ## 绘制直线
 ```
-/line  <方块图案> [粗细] [-hcr] 
+/line <方块图案> [粗细] [-hcr] 
 ```
 &emsp;&emsp;`-h` ：仅生成外表
 
@@ -22,7 +22,7 @@ icon: linter
 
 ## 绘制曲线
 ```
-/curve  <方块图案> [粗细] [-hcr]
+/curve <方块图案> [粗细] [-hcr]
 ```
 &emsp;&emsp;`-h` ：仅生成外表
 
