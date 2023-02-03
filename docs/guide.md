@@ -11,6 +11,7 @@ icon: install
 &emsp;&emsp;您首先需要明确：**开发者与您并不存在任何人身依附关系，您无理由更无权要求开发者做任何事情，开发者对本项目及其附属所造成的后果不承担任何责任或连带责任。**
 
 使用本插件所带来的可能性后果**包括但不限于**：
+
 - 方块错误
 - 方块实体丢失
 - 生物消失
@@ -31,9 +32,9 @@ icon: install
 
 ## **下载与使用 BDS**
 
-&emsp;&emsp;请参考 [TrapDoor wiki](https://hhhxiao.github.io/tr-wiki/use.html) 
+&emsp;&emsp;请参考 [TrapDoor wiki](https://hhhxiao.github.io/tr-wiki/use.html)
 ::: center
-![](./img/emoji3.jpg)
+![1](./img/emoji3.jpg)
 :::
 
 ## **下载与使用 LiteLoader**
@@ -42,20 +43,21 @@ icon: install
 
 ## **下载并安装插件本体**
 
-&emsp;&emsp;在此之前，请确保你已经安装好 `LiteLoader` 。之后，前往[ WorldEdit-BE 的下载页面](https://github.com/OEOTYAN/WorldEdit-BE/releases)下载最新版本的文件。
+&emsp;&emsp;在此之前，请确保你已经安装好 `LiteLoader` 。之后，前往[WorldEdit-BE 的下载页面](https://github.com/OEOTYAN/WorldEdit-BE/releases)下载最新版本的文件。
 下图展示了下载页面：
 ::: center
-![](./img/download.png)
+![2](./img/download.png)
 :::
 
-&emsp;&emsp;可以看到，通常需要下载的是一个 `.dll` 文件，你需要将其放置于
+&emsp;&emsp;可以看到，通常需要下载的是一个 `.zip` 文件，你需要将其解压，并将其中的文件放置于 plugins 文件夹：
 
 ```txt
 └───bedrock-server-xxx (服务器文件夹)
   └───plugins
-    └───WorldEdit-BE.dll
+    └───WorldEdit.dll
+    └───WorldEdit
 ```
 
 ## **下载并安装客户端用户界面**
 
-&emsp;&emsp;当你尝试使用该插件时，会发现选框没有被显示出来，这通常是因为你没有安装客户端用户界面。在 [WorldEdit-BE-CUI 的下载页面](https://github.com/OEOTYAN/WorldEdit-BE-CUI/releases)下载最新版本的 `.mcpack` 资源包文件并安装到游戏内，以全局资源的方式加载资源包。
+&emsp;&emsp;当你尝试使用该插件时，会发现选框没有被显示出来，这通常是因为你没有安装客户端用户界面。在 [LiteLoaderBDS-CUI 的下载页面](https://github.com/OEOTYAN/LiteLoaderBDS-CUI/releases)下载最新版本的 `.mcpack` 资源包文件并安装到游戏内，以全局资源的方式加载资源包。

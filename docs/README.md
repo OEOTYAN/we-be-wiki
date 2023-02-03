@@ -39,23 +39,12 @@ features:
 
 
 ::: center
-![](https://img.shields.io/github/languages/code-size/OEOTYAN/WorldEdit-BE?style=for-the-badge)
-![](https://img.shields.io/github/languages/top/OEOTYAN/WorldEdit-BE?style=for-the-badge)
-![](https://img.shields.io/github/license/OEOTYAN/WorldEdit-BE?style=for-the-badge)
-![](https://img.shields.io/github/downloads/OEOTYAN/WorldEdit-BE/total?style=for-the-badge)
-![](https://img.shields.io/github/v/release/OEOTYAN/WorldEdit-BE?style=for-the-badge)
+![1](https://img.shields.io/github/languages/code-size/OEOTYAN/WorldEdit-BE?style=for-the-badge)
+![2](https://img.shields.io/github/languages/top/OEOTYAN/WorldEdit-BE?style=for-the-badge)
+![3](https://img.shields.io/github/license/OEOTYAN/WorldEdit-BE?style=for-the-badge)
+![4](https://img.shields.io/github/downloads/OEOTYAN/WorldEdit-BE/total?style=for-the-badge)
+![5](https://img.shields.io/github/v/release/OEOTYAN/WorldEdit-BE?style=for-the-badge)
+
+![Star History Chart](https://api.star-history.com/svg?repos=OEOTYAN/WorldEdit-BE&type=Date)
 
 ::: center
-# __沙峦名单__
-
-::: tip
-[沙](https://baike.baidu.com/item/%E6%B2%99/2639665)：是汉语通用规范一级字（常用字）。此字初文始见于西周金文。会意字。其古字形像水及散碎沙粒。本义为细小的石粒，也指颗粒细小的东西。
-
-[峦](https://baike.baidu.com/item/%E5%B3%A6/5877822)：《唐韵》落官切《集韵》《韵会》《正韵》卢官切，音銮。《说文》山小而锐。《六书故》圜峰也。《楚辞·九章》登石峦以远望兮。 又山纡回绵连曰峦。《徐悱登琅邪城诗》襟带尽巖峦。《正字通》又盐韵，音廉。引苏轼谢欧阳晦夫遗琴枕诗：我怀汝隂六一老，眉宇秀发如春峦。按苏轼俱入寒韵引用，譌。形声。从山，羉声。本义：小而尖的山。也泛指山。
-
-
-本名单将放置在插件开发过程中极度扰乱开发过程，极度危害插件开发的任何 组织，小团体，个体（不论物种与生命体征）。
-:::
-
-::: center
-# __敬请期待__

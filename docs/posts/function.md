@@ -6,12 +6,14 @@ icon: function
 
 ::: warning
 由基岩版的一些限制，函数蒙版或函数在某些时候可能需要使用双引号括起来。
-::: 
+:::
+
 ## 函数蒙版
 
-```
+```text
 /gmask [表达式…]
 ```
+
 &emsp;&emsp;此命令可设置全局函数蒙版，影响绝大多数方块操作。当参数为空时清空蒙版，蒙版与玩家绑定。
 
 ## 表达式格式
@@ -55,11 +57,98 @@ icon: function
 
 &emsp;&emsp;函数由字母开头，内部可含有数字，下划线，冒号。尾部必须带有完整括号。截至目前，内置函数总共有这么几个：
 
-`rand`, `sin`, `abs`, `cos`, `sign`, `lg`, `ln`, `log2`, `round`, `floor`, `ceil`, `exp`, `exp2`, `sqrt`, `tan`, `atan`, `atan2`, `asin`, `acos`, `sinh`, `cosh`, `tanh`, `gamma`, `isslimechunk`, `sum`, `min`, `max`, `id`, `biome`, `data`, `issolid`, `iswaterblocking`, `issbblock`, `istop`, `normalx`, `normaly`, `normalz`, `angle`, `issurface`, `issurfacesmooth`, `is_xxxx`, `has_xxxx`
+`rand`, `sin`, `abs`, `cos`, `sign`, `lg`, `ln`, `log2`, `round`, `floor`, `ceil`, `exp`, `exp2`, `sqrt`, `tan`, `atan`, `atan2`, `asin`, `acos`, `sinh`, `cosh`, `tanh`, `gamma`, `isslimechunk`, `sum`, `min`, `max`, `id`,`runtimeid`, `hsa`,  `biome`, `hasplayer`, `noplayer`, `hasuntickedchunk`, `chunksfullyloaded`, `data`, `issolid`, `iswaterblocking`, `issbblock`, `istop`, `destroyspeed`, `thickness`, `translucency`, `light`, `emissive`, `normalx`, `normaly`, `normalz`, `angle`, `issurface`, `issurfacesmooth`,  `simplex`, `perlin`, `cubic`, `value`, `voronoi`,`is_xxxx`, `has_xxxx`
 
 &emsp;&emsp;大多为普通的数学函数，接下来介绍部分自定义的函数：
 
+### simplex
+
+```text
+ simplex(x,y,z,seed,fractalType,octaves,lacunarity,gain,weighted,ppStrength)
+```
+
+&emsp;&emsp; 返回 `simplex` 噪声。
+
+- `fractalType`
+  - `none`
+  - `fbm`
+  - `ridged`
+  - `pingpong`
+
+### perlin
+
+```text
+ perlin(x,y,z,seed,fractalType,octaves,lacunarity,gain,weighted,ppStrength)
+```
+
+&emsp;&emsp; 返回 `perlin` 噪声。
+
+- `fractalType`
+  - `none`
+  - `fbm`
+  - `ridged`
+  - `pingpong`
+
+### cubic
+
+```text
+ cubic(x,y,z,seed,fractalType,octaves,lacunarity,gain,weighted,ppStrength)
+```
+
+&emsp;&emsp; 返回 `cubic` 噪声。
+
+- `fractalType`
+  - `none`
+  - `fbm`
+  - `ridged`
+  - `pingpong`
+
+### value
+
+```text
+ value(x,y,z,seed,fractalType,octaves,lacunarity,gain,weighted,ppStrength)
+```
+
+&emsp;&emsp; 返回 `value` 噪声。
+
+- `fractalType`
+  - `none`
+  - `fbm`
+  - `ridged`
+  - `pingpong`
+
+### voronoi
+
+```text
+ voronoi(x,y,z,seed,returnType,disFunc,jitter,fractalType,octaves,lacunarity,gain,weighted,ppStrength)
+```
+
+&emsp;&emsp; 返回 `voronoi` 噪声。
+
+- `returnType`
+  - `value`
+  - `dis`
+  - `dis1`
+  - `dis2`
+  - `disadd`
+  - `dissub`
+  - `dismul`
+  - `disdiv`
+
+- `disFunc`
+  - `sqrted`
+  - `square`
+  - `manhattan`
+  - `hybird`
+
+- `fractalType`
+  - `none`
+  - `fbm`
+  - `ridged`
+  - `pingpong`
+
 ### rand
+
 &emsp;&emsp; 当函数内无参数时，此函数返回 0~1 的真随机数（若系统支持），每次运行结果不一致。当函数内有两个参数时，返回两个参数之间的随机数。
 
 ### isslimechunk
@@ -85,6 +174,70 @@ icon: function
 ::: info
 &emsp;&emsp;偏移量含义下同。
 :::
+
+### hasplayer
+
+```text
+hasplayer(dis)
+hasplayer(dis,biasx,,biay,biaz)
+```
+
+&emsp;&emsp;返回距离内是否有玩家
+
+### noplayer
+
+```text
+`noplayer(dis)
+`noplayer(dis,biasx,,biay,biaz)
+```
+
+&emsp;&emsp;返回距离内是否无玩家
+
+### hasuntickedchunk
+
+```text
+hasuntickedchunk(r)
+hasuntickedchunk(r,biasx,,biay,biaz)
+```
+
+&emsp;&emsp;返回半径内是否有未加载区块
+
+### chunksfullyloaded
+
+```text
+chunksfullyloaded(r)
+chunksfullyloaded(r,biasx,,biay,biaz)
+```
+
+&emsp;&emsp;返回半径内区块是否全加载
+
+### destroyspeed
+
+&emsp;&emsp;返回方块挖掘速度。
+
+### thickness
+
+&emsp;&emsp;返回方块厚度。
+
+### translucency
+
+&emsp;&emsp;返回方块透光度。
+
+### light
+
+&emsp;&emsp;返回方块光。
+
+### emissive
+
+&emsp;&emsp;返回方块自发光强。
+
+### runtimeid
+
+&emsp;&emsp;返回方块的 `runtimeId`。
+
+### hsa
+
+&emsp;&emsp;返回方块所在位置的 `HardcodedSpawnArea`。
 
 ### biome
 
