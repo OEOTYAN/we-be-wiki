@@ -187,8 +187,8 @@ hasplayer(dis,biasx,,biay,biaz)
 ### noplayer
 
 ```text
-`noplayer(dis)
-`noplayer(dis,biasx,,biay,biaz)
+noplayer(dis)
+noplayer(dis,biasx,,biay,biaz)
 ```
 
 &emsp;&emsp;返回距离内是否无玩家
