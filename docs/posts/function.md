@@ -179,7 +179,7 @@ icon: function
 
 ```text
 hasplayer(dis)
-hasplayer(dis,biasx,,biay,biaz)
+hasplayer(dis,biasx,,biasy,biasz)
 ```
 
 &emsp;&emsp;返回距离内是否有玩家
@@ -188,7 +188,7 @@ hasplayer(dis,biasx,,biay,biaz)
 
 ```text
 noplayer(dis)
-noplayer(dis,biasx,,biay,biaz)
+noplayer(dis,biasx,,biasy,biasz)
 ```
 
 &emsp;&emsp;返回距离内是否无玩家
@@ -197,7 +197,7 @@ noplayer(dis,biasx,,biay,biaz)
 
 ```text
 hasuntickedchunk(r)
-hasuntickedchunk(r,biasx,,biay,biaz)
+hasuntickedchunk(r,biasx,,biasy,biasz)
 ```
 
 &emsp;&emsp;返回半径内是否有未加载区块
@@ -206,7 +206,7 @@ hasuntickedchunk(r,biasx,,biay,biaz)
 
 ```text
 chunksfullyloaded(r)
-chunksfullyloaded(r,biasx,,biay,biaz)
+chunksfullyloaded(r,biasx,,biasy,biasz)
 ```
 
 &emsp;&emsp;返回半径内区块是否全加载
