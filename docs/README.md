@@ -16,6 +16,9 @@ actions:
   - text: 下载
     link: https://github.com/OEOTYAN/WorldEdit-BE/releases/latest
 
+  - text: 开发群
+    link: https://jq.qq.com/?_wv=1027&k=BoKJYHqQ
+
   - text: 赞助
     link: https://afdian.net/@oeotyan
 
