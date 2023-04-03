@@ -157,15 +157,15 @@ icon: view
 
 ### 在各轴同时扩张
 
-&emsp;&emsp;这个命令会将选区向内缩小。
+&emsp;&emsp;这个命令会将选区向外扩张。
 
 ```text
 /outset <数量> [-hv]
 ```
 
-&emsp;&emsp;`-h` 表示只水平方向上（horizonally）收缩。
+&emsp;&emsp;`-h` 表示只水平方向上（horizonally）扩张。
 
-&emsp;&emsp;`-v` 表示只竖直方向上（vertically）收缩。
+&emsp;&emsp;`-v` 表示只竖直方向上（vertically）扩张。
 
 ### 在各轴同时收缩
 
